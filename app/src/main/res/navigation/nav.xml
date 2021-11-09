@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/personFragment">
+
+    <fragment
+        android:id="@+id/addEventFragment"
+        android:name="tn.tekup.eventapp.events.AddEventFragment"
+        android:label="fragment_add_event"
+        tools:layout="@layout/fragment_add_event" />
+    <fragment
+        android:id="@+id/addPersonFragment"
+        android:name="tn.tekup.eventapp.persons.AddPersonFragment"
+        android:label="fragment_add_person"
+        tools:layout="@layout/fragment_add_person" />
+    <fragment
+        android:id="@+id/eventFragment"
+        android:name="tn.tekup.eventapp.events.EventFragment"
+        android:label="fragment_event"
+        tools:layout="@layout/fragment_event" />
+    <fragment
+        android:id="@+id/personFragment"
+        android:name="tn.tekup.eventapp.persons.PersonFragment"
+        android:label="fragment_person"
+        tools:layout="@layout/fragment_person" />
+    <fragment
+        android:id="@+id/addPersonEVentFragment"
+        android:name="tn.tekup.eventapp.personevent.AddPersonEVentFragment"
+        android:label="fragment_add_person_e_vent"
+        tools:layout="@layout/fragment_add_person_e_vent" />
+    <fragment
+        android:id="@+id/personEventFragment"
+        android:name="tn.tekup.eventapp.personevent.PersonEventFragment"
+        android:label="fragment_person_event"
+        tools:layout="@layout/fragment_person_event" />
+</navigation>

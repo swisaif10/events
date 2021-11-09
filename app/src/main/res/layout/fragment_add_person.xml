@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".persons.AddPersonFragment" >
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/nomPerEt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/background_input"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Nom "
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/prenomPerEt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/background_input"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Prenom"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/dateDeNaissanceEt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/background_input"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Date de naissance"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/adressePerEt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/background_input"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Adresse"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/sexeEt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/background_input"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="H ou F"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/binEt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/background_input"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Bin"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/nationaliteEt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/background_input"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Nationalité"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/nomMereEt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/background_input"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Nom mère"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/nomPereEt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/background_input"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Nom père"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/personEventsEt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/background_input"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Person event"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/professionEt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/background_input"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Profession"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/referenceCinEt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/background_input"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Référence Cin"
+                android:inputType="textPersonName" />
+
+            <Button
+                android:id="@+id/validerBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Valider"
+                android:textAllCaps="false" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
