@@ -16,7 +16,7 @@ object RetrofitClient {
         }.build()
     val INSTANCE: IcWS by lazy {
         val retrofit = Retrofit.Builder()
-            .baseUrl("http://192.168.1.152:50685/")
+            .baseUrl("http://192.168.1.16:50685/")
             .addConverterFactory(GsonConverterFactory.create())
             .client(okHttpClient)
             .build()

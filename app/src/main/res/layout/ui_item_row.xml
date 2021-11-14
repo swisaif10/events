@@ -57,7 +57,7 @@
             android:gravity="center|left"
             android:maxLines="3"
             android:paddingLeft="10dp"
-            android:text="TextView"
+            android:text="Ariana"
             android:textColor="#575654"
             android:textSize="12sp" />
 

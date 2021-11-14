@@ -35,4 +35,8 @@
         android:name="tn.tekup.eventapp.personevent.PersonEventFragment"
         android:label="fragment_person_event"
         tools:layout="@layout/fragment_person_event" />
+    <fragment
+        android:id="@+id/detailsEventsFragment"
+        android:name="tn.tekup.eventapp.events.DetailsEventsFragment"
+        android:label="DetailsEventsFragment" />
 </navigation>

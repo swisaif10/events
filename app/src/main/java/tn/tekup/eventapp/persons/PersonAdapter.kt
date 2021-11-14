@@ -47,7 +47,8 @@ holder.view.PersonTv.text=subjectList[position].nomPer + " " + subjectList[posit
         }
 
         override fun onClick(v: View?) {
-
+            v!!.findNavController()
+                .navigate(R.id.detailsEventsFragment)
         }
     }
 

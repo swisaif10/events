@@ -1,5 +1,6 @@
 package tn.tekup.eventapp.personevent
 
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -49,7 +50,9 @@ class PersonEventAdapter(private var subjectList: MutableList<EventsResponse>) :
         }
 
         override fun onClick(v: View?) {
-
+Log.i("ssss","sssss")
+            v!!.findNavController()
+                .navigate(R.id.detailsEventsFragment)
 
         }
     }
